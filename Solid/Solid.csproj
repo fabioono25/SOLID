@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="1-SRP\" />
+    <Folder Include="2-OCP\" />
+    <Folder Include="3-LSP\" />
+    <Folder Include="4-ISP\" />
+    <Folder Include="5-DIP\" />
+  </ItemGroup>
+
+</Project>

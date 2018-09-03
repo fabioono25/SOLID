@@ -6,11 +6,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="1-SRP\" />
+    <Folder Include="1-SRP\Example1\Solution\" />
     <Folder Include="2-OCP\" />
     <Folder Include="3-LSP\" />
     <Folder Include="4-ISP\" />
     <Folder Include="5-DIP\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.5.1" />
   </ItemGroup>
 
 </Project>

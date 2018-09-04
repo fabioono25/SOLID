@@ -41,6 +41,14 @@ https://www.gnutls.org/manual/html_node/Client-example-with-SRP-authentication.h
 
 http://srp.stanford.edu/analysis.html
 
+http://blog.ploeh.dk/2010/02/02/RefactoringtoAggregateServices/
+
+https://softwareengineering.stackexchange.com/questions/150760/single-responsibility-principle-how-can-i-avoid-code-fragmentation
+
+https://8thlight.com/blog/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html
+
+https://www.win.tue.nl/~wstomv/edu/2ip30/references/criteria_for_modularization.pdf
+
 
 ### OCP (Open-Closed Principle)
 

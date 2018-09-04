@@ -11,6 +11,8 @@ Single: only one, isolated, by itself VS God Object (anti-pattern)
 
 Responsibility: the work or action that each part of your system, the methods, classes, packages, modules are assigned to do
 
+(https://github.com/fabioono25/SOLID/blob/master/Solid/Images/HighLevelDesign.png)
+
 Links:
 
 https://www.udemy.com/design-patterns-csharp-dotnet/learn/v4/overview

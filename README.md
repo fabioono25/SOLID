@@ -13,18 +13,18 @@ Responsibility: the work or action that each part of your system, the methods, c
 
 Links:
 
-https://www.udemy.com/design-patterns-csharp-dotnet/learn/v4/overview
-https://www.youtube.com/watch?v=Q2QdkiX6p_Y
-https://code.tutsplus.com/pt/tutorials/solid-part-1-the-single-responsibility-principle--net-36074
-https://www.infoworld.com/article/2946023/application-architecture/implementing-the-single-responsibility-principle-in-c.html
-https://www.codeproject.com/Articles/611593/SOLID-Principles-Single-Respons
-https://hackernoon.com/you-dont-understand-the-single-responsibility-principle-abfdd005b137
-https://www.oodesign.com/single-responsibility-principle.html
-https://codeburst.io/understanding-solid-principles-single-responsibility-b7c7ec0bf80
-https://www.toptal.com/software/single-responsibility-principle
-https://www.intertech.com/Blog/the-single-responsibility-principle-with-c-examples/
-http://rcardin.github.io/solid/srp/programming/2017/12/31/srp-done-right.html
-https://www.gnutls.org/manual/html_node/Client-example-with-SRP-authentication.html
-http://srp.stanford.edu/analysis.html
+[](https://www.udemy.com/design-patterns-csharp-dotnet/learn/v4/overview)
+[](https://www.youtube.com/watch?v=Q2QdkiX6p_Y)
+[](https://code.tutsplus.com/pt/tutorials/solid-part-1-the-single-responsibility-principle--net-36074)
+[](https://www.infoworld.com/article/2946023/application-architecture/implementing-the-single-responsibility-principle-in-c.html)
+[](https://www.codeproject.com/Articles/611593/SOLID-Principles-Single-Respons)
+[](https://hackernoon.com/you-dont-understand-the-single-responsibility-principle-abfdd005b137)
+[](https://www.oodesign.com/single-responsibility-principle.html)
+[](https://codeburst.io/understanding-solid-principles-single-responsibility-b7c7ec0bf80)
+[](https://www.toptal.com/software/single-responsibility-principle)
+[](https://www.intertech.com/Blog/the-single-responsibility-principle-with-c-examples/)
+[](http://rcardin.github.io/solid/srp/programming/2017/12/31/srp-done-right.html)
+[](https://www.gnutls.org/manual/html_node/Client-example-with-SRP-authentication.html)
+[](http://srp.stanford.edu/analysis.html)
 
 ### OCP (Open-Closed Principle)

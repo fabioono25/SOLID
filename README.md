@@ -43,3 +43,7 @@ http://srp.stanford.edu/analysis.html
 
 
 ### OCP (Open-Closed Principle)
+
+https://hackernoon.com/why-the-open-closed-principle-is-the-one-you-need-to-know-but-dont-176f7e4416d
+
+

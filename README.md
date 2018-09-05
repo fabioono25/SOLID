@@ -29,6 +29,8 @@ However, as you think about this principle, remember that the reasons for change
 
 Links:
 
+https://8thlight.com/blog/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html
+
 https://www.udemy.com/design-patterns-csharp-dotnet/learn/v4/overview
 
 https://www.youtube.com/watch?v=Q2QdkiX6p_Y
@@ -54,8 +56,6 @@ http://rcardin.github.io/solid/srp/programming/2017/12/31/srp-done-right.html
 http://blog.ploeh.dk/2010/02/02/RefactoringtoAggregateServices/
 
 https://softwareengineering.stackexchange.com/questions/150760/single-responsibility-principle-how-can-i-avoid-code-fragmentation
-
-https://8thlight.com/blog/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html
 
 https://www.win.tue.nl/~wstomv/edu/2ip30/references/criteria_for_modularization.pdf
 

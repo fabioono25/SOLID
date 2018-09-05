@@ -11,6 +11,20 @@ Single: only one, isolated, by itself VS God Object (anti-pattern)
 
 Responsibility: the work or action that each part of your system, the methods, classes, packages, modules are assigned to do
 
+In subsequent writings, he's done a better job at explaining what he meant:
+
+"And this gets to the crux of the Single Responsibility Principle. This principle is about people.
+
+When you write a software module, you want to make sure that when changes are requested, those changes can only originate from a single person, or rather, a single tightly coupled group of people representing a single narrowly defined business function. You want to isolate your modules from the complexities of the organization as a whole, and design your systems such that each module is responsible (responds to) the needs of just that one business function."
+
+Which, really, is hard to disagree with.
+
+"Another wording for the Single Responsibility Principle is:
+
+Gather together the things that change for the same reasons. Separate those things that change for different reasons."
+
+However, as you think about this principle, remember that the reasons for change are people. It is people who request changes. And you don't want to confuse those people, or yourself, by mixing together the code that many different people care about for different reasons.
+
 ![](https://github.com/fabioono25/SOLID/blob/master/Solid/Images/HighLevelDesign.png)
 
 Links:
@@ -36,10 +50,6 @@ https://www.toptal.com/software/single-responsibility-principle
 https://www.intertech.com/Blog/the-single-responsibility-principle-with-c-examples/
 
 http://rcardin.github.io/solid/srp/programming/2017/12/31/srp-done-right.html
-
-https://www.gnutls.org/manual/html_node/Client-example-with-SRP-authentication.html
-
-http://srp.stanford.edu/analysis.html
 
 http://blog.ploeh.dk/2010/02/02/RefactoringtoAggregateServices/
 

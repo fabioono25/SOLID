@@ -62,6 +62,10 @@ https://www.win.tue.nl/~wstomv/edu/2ip30/references/criteria_for_modularization.
 
 ### OCP (Open-Closed Principle)
 
+Software entities (classes, modules, functions, etc) should be open for extension, but closed for modification.
+
+
+
 https://hackernoon.com/why-the-open-closed-principle-is-the-one-you-need-to-know-but-dont-176f7e4416d
 
 

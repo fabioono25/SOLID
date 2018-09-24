@@ -6,7 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="3-LSP\Example2\Solution\" />
     <Folder Include="Images\" />
     <Folder Include="4-ISP\" />
     <Folder Include="5-DIP\" />

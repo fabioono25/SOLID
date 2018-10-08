@@ -32,24 +32,6 @@ namespace Solid._2_OCP.Example2.Solution
         }
     }
 
-    //filtering the product
-    public class ProductFilter
-    {
-        public IEnumerable<Product> FilterBySize(IEnumerable<Product> products, Size size)
-        {
-            foreach (var p in products)
-                if (p.Size == size)
-                    yield return p;
-        }
-
-        public IEnumerable<Product> FilterByColor(IEnumerable<Product> products, Color color)
-        {
-            foreach (var p in products)
-                if (p.Color == color)
-                    yield return p;
-        }
-    }
-
     //we'll use a Specification Pattern to solve these problem of multiple new filters
     public interface ISpecification<T>
     {
@@ -82,7 +64,6 @@ namespace Solid._2_OCP.Example2.Solution
 
     public class AndSpecification<T> : ISpecification<T>
     {
-        //private ISpecification<T> first, second;
         private ISpecification<T> first { get; }
         private ISpecification<T> second { get; }
 
@@ -110,7 +91,7 @@ namespace Solid._2_OCP.Example2.Solution
         }
     }
 
-    public class ExecuteExample
+    public static class ExecuteExample
     {
         public static void Execute()
         {

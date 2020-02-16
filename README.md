@@ -72,5 +72,3 @@ https://hackernoon.com/why-the-open-closed-principle-is-the-one-you-need-to-know
 Derived classes must be substitutable for their base classes.
 
 
-
-Fev, 16th - Adding Python Examples, coming from the course "Learning SOLID Programming Principles" by Steven Lott - LinkedIn Learning

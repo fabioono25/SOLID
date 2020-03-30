@@ -38,9 +38,23 @@ namespace Solid._2_OCP.Example2.Solution
         bool IsSatisfied(T t);
     }
 
+    //filter mechanist that operates in any type
     public interface IFilter<T>
     {
         IEnumerable<T> Filter(IEnumerable<T> items, ISpecification<T> spec);
+    }
+
+    //the concrete implementation of Filter
+    public class BetterFilter : IFilter<Product>
+    {
+        public IEnumerable<Product> Filter(IEnumerable<Product> items, ISpecification<Product> spec)
+        {
+            foreach (var i in items)
+            {
+                if (spec.IsSatisfied(i))
+                    yield return i;
+            }
+        }
     }
 
     //implementation of interfaces
@@ -76,18 +90,6 @@ namespace Solid._2_OCP.Example2.Solution
         public bool IsSatisfied(T t)
         {
             return first.IsSatisfied(t) && second.IsSatisfied(t);
-        }
-    }
-
-    public class BetterFilter : IFilter<Product>
-    {
-        public IEnumerable<Product> Filter(IEnumerable<Product> items, ISpecification<Product> spec)
-        {
-            foreach (var i in items)
-            {
-                if (spec.IsSatisfied(i))
-                    yield return i;
-            }
         }
     }
 

@@ -28,7 +28,7 @@ namespace Solid.ISP.Example2.Solution
         }
     }
 
-    public interface IMultiFunctionDevice: IScanner, IPrinter { //, ...
+    public interface IMultiFunctionDevice: IScanner, IPrinter {
 
     }
 

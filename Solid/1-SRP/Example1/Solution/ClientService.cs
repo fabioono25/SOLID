@@ -11,9 +11,10 @@ namespace Solid._1_SRP.Example1.Solution
             if (!client.IsValid())
                 return "Invalid data";
 
-            var repo = new ClientRepository();
+            var repo = new ClientRepository(); //it must be injected through interface
             repo.AddClient(client);
 
+            //this class must be injected as well
             EmailServices.Send("asdas@x.com", client.Email, "Welcome", "Congratulations!!!");
 
             return "Client ok";

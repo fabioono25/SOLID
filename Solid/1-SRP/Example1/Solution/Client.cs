@@ -10,8 +10,7 @@ namespace Solid._1_SRP.Example1.Solution
         public int ClientId { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
-        public string CPF { get; set; }
 
-        public bool IsValid() => EmailServices.IsValid(Email) && CPFServices.IsValid(CPF);
+        public bool IsValid() => EmailServices.IsValid(Email);
     }
 }

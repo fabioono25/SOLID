@@ -13,7 +13,6 @@ namespace Solid._1_SRP.Example1.Violation
         public int ClientId { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
-        public string CPF { get; set; }
 
         //a class doesn't need have the responsability of insert in database itself
         //someone must do it for it (repository, another class)
@@ -22,10 +21,6 @@ namespace Solid._1_SRP.Example1.Violation
             //validation: class don't have to know to validate e-mail. Use a class to validate e-mail
             if (!Email.Contains("@"))
                 return "E-mail is invalid";
-
-            //validation: class don't have to know to validate CPF
-            if (CPF.Length != 11)
-                return "CPF is invalid";
 
             //not responsability: connection and know de database
             using (var cn = new SqlConnection())

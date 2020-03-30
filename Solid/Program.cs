@@ -6,7 +6,8 @@ namespace Solid
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Solid._3_LSP.Example1.Violation.ExecuteTest.Execute();
+            Solid._3_LSP.Example1.Solution.ExecuteTest.Execute();
         }
     }
 }

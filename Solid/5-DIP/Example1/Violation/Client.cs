@@ -10,10 +10,9 @@ namespace Solid.DIP.Example1.Violation
         public int ClientId { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
-        public string CPF { get; set; }
 
         //depends on implementation: highly coupling
-        //fere SRP: um motivo para mudar - se mudo EmailServices, posso quebrar Client
-        public bool IsValid() => EmailServices.IsValid(Email) && CPFServices.IsValid(CPF);
+        //fere SRP: one motive to change - if I change EmailServices, I can break Client
+        public bool IsValid() => EmailServices.IsValid(Email);
     }
 }

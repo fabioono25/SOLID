@@ -21,12 +21,12 @@ namespace Solid.DIP.Example1.Solution
             if (!client.IsValid())
                 return "Invalid data";
 
-            //acoplamento com Repository
+            //Repository coupling
             // var repo = new ClientRepository();
             // repo.AddClient(client);
             _clientRepository.AddClient(client);
 
-            //acoplamento com EmailServices
+            //EmailServices coupling
             //EmailServices.Send("asdas@x.com", client.Email, "Welcome", "Congratulations!!!");
             _emailServices.Send("asdas@x.com", client.Email, "Welcome", "Congratulations!!!");
 

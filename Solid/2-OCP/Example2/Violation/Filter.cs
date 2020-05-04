@@ -64,8 +64,8 @@ namespace Solid._2_OCP.Example2.Violation
         public static void Execute()
         {
             var apple = new Product("Apple", Color.Green, Size.Small);
-            var tree = new Product("Apple", Color.Green, Size.Large);
-            var house = new Product("Apple", Color.Blue, Size.Large);
+            var tree = new Product("Tree", Color.Green, Size.Large);
+            var house = new Product("House", Color.Blue, Size.Large);
 
             Product[] products = { apple, tree, house };
 
